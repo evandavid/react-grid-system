@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Visible from '../Visible';
 import { getAfterStyle, getAfterContentStyle } from './style';
 
-export default class ClearFix extends React.Component {
+export default class ClearFix extends React.PureComponent {
   static propTypes = {
     /**
      * Show on extra small devices
