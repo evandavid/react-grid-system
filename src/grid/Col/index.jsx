@@ -6,7 +6,7 @@ import throttle from 'lodash/throttle';
 import getStyle from './style';
 import { getScreenClass } from '../../utils';
 
-export default class Col extends React.Component {
+export default class Col extends React.PureComponent {
   static propTypes = {
     /**
      * Content of the column
