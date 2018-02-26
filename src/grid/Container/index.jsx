@@ -6,7 +6,7 @@ import throttle from 'lodash/throttle';
 import getStyle, { getAfterStyle } from './style';
 import { getScreenClass } from '../../utils';
 
-export default class Container extends React.Component {
+export default class Container extends React.PureComponent {
   static propTypes = {
     /**
      * Content of the component
