@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import getStyle from './style';
 import ClearFix from '../../utilities/ClearFix';
 
-export default class Row extends React.Component {
+export default class Row extends React.PureComponent {
   static propTypes = {
     /**
      * Content of the element
